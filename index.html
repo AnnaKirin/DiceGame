@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dicee game</title>
 
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div>
-      <h1>Refresh me!</h1>
-      <button>Play</button>
-      <h2>Player 1</h2>
-      <h2>Player 2</h2>
-      <img src="" alt="" />
+    <div class="mainContainer">
+      <h1 id="title">Refresh me!</h1>
+      <button id="btn" onclick="newSrc()">Play</button>
+      <div class="divider"></div>
+      <div class="left card">
+        <h2>Player 1</h2>
+        <img src="./images/dice6.png" alt="dice6points" id="imgPlayer1" />
+      </div>
+
+      <div class="right card">
+        <h2>Player 2</h2>
+        <img src="./images/dice6.png" alt="dice6points" id="imgPlayer2" />
+      </div>
     </div>
     <footer>Made by AnnaKirin</footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
