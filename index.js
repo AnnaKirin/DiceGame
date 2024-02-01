@@ -1,13 +1,4 @@
-// let output = [];
-
-// function fillArray() {
-//   for (i = 0; i < 6; i++) {
-//     output[i] = Math.floor(Math.random() * 6 + 1);
-//   }
-//   console.log(output);
-// }
-
-// fillArray();
+//func newsrc must return picture and text
 
 function newSrc() {
   let number1 = Math.floor(Math.random() * 6 + 1);
@@ -17,4 +8,12 @@ function newSrc() {
   let number2 = Math.floor(Math.random() * 6 + 1);
   let image2 = document.querySelector("#imgPlayer2");
   image2.src = "./images/dice" + number2 + ".png";
+
+  if (number1 > number2) {
+    console.log("Player 1 win!");
+  } else if (number1 === number2) {
+    console.log("Draw!");
+  } else {
+    console.log("Player 2 win!");
+  }
 }
