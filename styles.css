@@ -5,7 +5,10 @@ body {
 h1 {
   color: rgb(59, 184, 142);
   font-size: 5rem;
-  /* text-align: center; */
+  font-family: "Handlee", cursive;
+  font-weight: 1500;
+  font-style: normal;
+  text-shadow: #000000d8 3px 3px 8px;
 }
 h2 {
   color: rgb(59, 184, 142);
@@ -13,6 +16,10 @@ h2 {
   text-align: center;
   margin-top: 0px;
   margin-bottom: 30px;
+  font-family: "Handlee", cursive;
+  font-weight: 800;
+  font-style: italic;
+  text-shadow: #000000d8 3px 3px 8px;
 }
 .mainContainer {
   display: flex;
@@ -57,9 +64,8 @@ h2 {
   box-sizing: border-box;
   color: #fff;
   display: inline;
-  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  font-size: 1rem;
+  font-family: "Handlee", cursive;
+  font-size: 1.5em;
   font-weight: 600;
   line-height: 40px;
   padding: 6px 16px;
@@ -78,4 +84,7 @@ footer {
   color: wheat;
   padding: 40px;
   text-align: center;
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
