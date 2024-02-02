@@ -13,7 +13,6 @@ h1 {
 h2 {
   color: rgb(59, 184, 142);
   font-size: 2rem;
-  text-align: center;
   margin-top: 0px;
   margin-bottom: 30px;
   font-family: "Handlee", cursive;
@@ -26,13 +25,15 @@ h2 {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 70vh;
+  height: 100vm;
   width: 100%;
   order: 1;
 }
 .divider {
   flex-direction: row;
   order: 2;
+  text-align: center;
+  flex: 1;
 }
 
 .left {
@@ -51,8 +52,7 @@ h2 {
   margin: 50px;
 }
 .button {
-  order: 100;
-  margin-bottom: auto;
+  order: 5;
 }
 
 #btn,
@@ -70,7 +70,6 @@ h2 {
   line-height: 40px;
   padding: 6px 16px;
   position: relative;
-  text-align: center;
   vertical-align: middle;
   width: 120px;
   order: 1;
@@ -87,4 +86,13 @@ footer {
   font-family: "Handlee", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+@media (max-width: 700px) {
+  .left {
+    float: none;
+  }
+  .right {
+    float: none;
+  }
 }
