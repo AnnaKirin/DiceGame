@@ -75,10 +75,6 @@ h2 {
   order: 1;
 }
 
-#refreshBtn {
-  position: relative;
-  order: 4;
-}
 footer {
   color: wheat;
   padding: 40px;
@@ -94,5 +90,9 @@ footer {
   }
   .right {
     float: none;
+  }
+  h1 {
+    color: rgb(59, 184, 142);
+    font-size: 3rem;
   }
 }
